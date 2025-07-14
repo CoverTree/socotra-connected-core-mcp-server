@@ -1,0 +1,14 @@
+*.js
+!.eslintrc.cjs
+*.d.ts
+node_modules
+.DS_Store
+
+dist
+
+# VSCode workspace settings
+.vscode
+
+# Jetbrains workspace settings
+.idea
+*.iml
