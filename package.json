@@ -1,6 +1,6 @@
 {
   "name": "socotra-connected-core-mcp-server",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/index.cjs",
   "bin": {
     "socotra-connected-core-mcp-server": "dist/index.cjs"
