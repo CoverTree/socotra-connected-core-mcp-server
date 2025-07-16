@@ -7,12 +7,12 @@ The MCP Server, which allows to connect to the Socotra Connected Core platform.
 1. First you need to install the `socotra-profile` utility, which is used to manage profiles for the Socotra Connected Core platform. You can install it globally using npm:
 
    ```bash
-   npm install -g socotra-profile
+   npm install -g @socotra/profile-cli
    ```
 2. Next, you need to create a profile for your Socotra Connected Core instance. You can do this by running the following command:
 
    ```bash
-    socotra-profile create <name of profile>
+    socotra-profile add <name of profile>
     ```
 3. Follow the prompts to enter the necessary information for your Socotra Connected Core instance, such as the API URL and authentication details.
 4. Once you have created the profile, you can edit the MCP Servers configuration of your client, adding:
